@@ -1,3 +1,9 @@
 /home/julio/NetBeansProjects/pocAMS/src/main/java/com/ams/jud/pocams/controller/UserController.java
+/home/julio/NetBeansProjects/pocAMS/src/main/java/com/ams/jud/pocams/service/UserServiceImp.java
+/home/julio/NetBeansProjects/pocAMS/src/main/java/com/ams/jud/pocams/dao/UserDaoImp.java
+/home/julio/NetBeansProjects/pocAMS/src/main/java/com/ams/jud/pocams/service/UserService.java
+/home/julio/NetBeansProjects/pocAMS/src/main/java/com/ams/jud/pocams/model/User.java
 /home/julio/NetBeansProjects/pocAMS/src/main/java/com/ams/jud/pocams/config/WebMvcConfiguration.java
 /home/julio/NetBeansProjects/pocAMS/src/main/java/com/ams/jud/pocams/config/AppConfig.java
+/home/julio/NetBeansProjects/pocAMS/src/main/java/com/ams/jud/pocams/config/HibernateConfig.java
+/home/julio/NetBeansProjects/pocAMS/src/main/java/com/ams/jud/pocams/dao/UserDao.java

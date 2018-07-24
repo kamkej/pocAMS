@@ -5,6 +5,7 @@
  */
 package com.ams.jud.pocams.model;
 
+import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,7 +21,7 @@ import org.hibernate.validator.constraints.NotEmpty;
  */
 @Entity
 @Table(name = "AMS_USERS")
-public class User {
+public class User implements Serializable {
     
    @Id
    @GeneratedValue
@@ -37,10 +38,42 @@ public class User {
    @NotEmpty(message="Please Enter your email")
    private String email;
    
-   @Column(name = "USER_EMAIL", unique = true)
-   @Email(message = "{user.password.invalid}")
-   @NotEmpty(message="Please Enter your password")
+   @Column(name = "USER_PASSWORD", unique = true)
    private String password;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+   
+   
    
     
 }

@@ -1,3 +1,9 @@
+com/ams/jud/pocams/dao/UserDao.class
+com/ams/jud/pocams/config/HibernateConfig.class
 com/ams/jud/pocams/config/WebMvcConfiguration.class
 com/ams/jud/pocams/config/AppConfig.class
 com/ams/jud/pocams/controller/UserController.class
+com/ams/jud/pocams/service/UserServiceImp.class
+com/ams/jud/pocams/model/User.class
+com/ams/jud/pocams/dao/UserDaoImp.class
+com/ams/jud/pocams/service/UserService.class

@@ -15,9 +15,9 @@
         <spring.version>5.0.7.RELEASE</spring.version>
         <servlets.version>4.0.1</servlets.version>
         <jsp.version>2.3.1</jsp.version>
-         <jstl.version>1.2.1</jstl.version>
+        <jstl.version>1.2.1</jstl.version>
          
-          <hibernate.version>5.2.11.Final</hibernate.version>
+        <hibernate.version>5.2.11.Final</hibernate.version>
         <hibernate.validator>5.4.1.Final</hibernate.validator>
         <c3p0.version>0.9.5.2</c3p0.version>
         
@@ -53,7 +53,7 @@
         </dependency>
         
         
-               <!-- Spring ORM -->
+        <!-- Spring ORM -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-orm</artifactId>
@@ -87,6 +87,19 @@
             <artifactId>hibernate-validator</artifactId>
             <version>${hibernate.validator}</version>
         </dependency>
+        <!-- Mariadb driver -->
+        <dependency>
+            <groupId>org.mariadb.jdbc</groupId>
+            <artifactId>mariadb-java-client</artifactId>
+            <version>1.1.7</version>
+        </dependency>
+        <!-- Jackson API for JSON -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.9.4</version>
+        </dependency>
+        
     </dependencies>
 
     <build>
